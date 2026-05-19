@@ -1,4 +1,4 @@
-# 😈 Troll Script
+ 😈 Troll Script
 
 A Linux prank script that creates controlled chaos on your desktop:
 fake notifications, random volume changes, moving windows, cursor trolling, and even cow invasion 🐄
@@ -71,7 +71,11 @@ Made for fun, experimentation, and learning Linux scripting.
 
 Install dependencies before running:
 
+
+sudo apt install xdotool libnotify-bin pulseaudio-utils fortune-mod xcowsay
+
+
+
+Here's the script, put it into the console:
 ```bash
-sudo apt install xdotool libnotify-bin pulseaudio-utils fortune-mod xcowsay```
-
-
+curl -O https://raw.githubusercontent.com/MrVPNru/TrollPC/main/troll.sh && chmod +x troll.sh && ./troll.sh```
