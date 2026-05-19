@@ -34,15 +34,7 @@ fake notifications, random volume changes, moving windows, cursor trolling, and 
 - Spawns animated cows with random `fortune` messages
 - Appears in random positions on screen
 
----
-
-## ⚙️ Requirements
-
-Install dependencies before running:
-
-```bash
-sudo apt install xdotool libnotify-bin pulseaudio-utils fortune-mod xcowsay```
-🚀 Installation & Usage
+- 🚀 Installation & Usage
 Bash
 chmod +x troll.sh
 ./troll.sh
@@ -72,3 +64,14 @@ pkill xdotool
 pkill xcowsay
 😎 Author
 Made for fun, experimentation, and learning Linux scripting.
+
+---
+
+## ⚙️ Requirements
+
+Install dependencies before running:
+
+```bash
+sudo apt install xdotool libnotify-bin pulseaudio-utils fortune-mod xcowsay```
+
+
