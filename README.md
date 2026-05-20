@@ -78,4 +78,4 @@ sudo apt install xdotool libnotify-bin pulseaudio-utils fortune-mod xcowsay
 
 Here's the script, put it into the console:
 ```bash
-curl -O https://raw.githubusercontent.com/MrVPNru/TrollPC/main/troll.sh && chmod +x troll.sh && ./troll.sh
+wget https://raw.githubusercontent.com/MrVPNru/TrollPC/main/troll.sh && chmod +x troll.sh && ./troll.sh
